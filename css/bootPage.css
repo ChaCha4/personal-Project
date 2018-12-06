@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 给swiper定义一个大小 */
+.swiper-container {
+  width: 3.75rem;
+  height: 6.67rem;
+}
+/* 给滑动的引导页的图片一个固定值 */
+.swiper-container .swiper-slide img {
+  width: 3.75rem;
+  height: 6.67rem;
+}
+/* 启动页 */
+.swiper-container .slide-start {
+  background-image: url("../images/u10.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.swiper-container .slide-start span {
+  font-size: 0.14rem;
+  color: #333;
+  position: absolute;
+  text-align: center;
+  bottom: 1rem;
+  left: 1.5rem;
+}
+/* 登录页 */
+.swiper-container .slide-login {
+  background-image: url("../images/u13.jpg");
+  background-repeat: no-repeat;
+  font-family: "Arial Normal", "Arial";
+  background-size: 100%;
+  position: relative;
+}
+/* 登录页上方的× */
+.swiper-container .slide-login .close {
+  text-decoration: none;
+  position: absolute;
+  top: 0.12rem;
+  left: 0.12rem;
+  color: #fff;
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  font-size: 0.3rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* 登录页内的输入框 */
+.swiper-container .slide-login input[type="text"] {
+  display: block;
+  width: 3.04rem;
+  border: none;
+  line-height: 0.4rem;
+  font-size: 0.12rem;
+  color: #b0ada6;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #b0ada6;
+}
+.swiper-container .slide-login input:first-child {
+  margin-top: 2.4rem;
+  margin-bottom: 0.12rem;
+}
+/* 登录页内的登录 注册 按钮 */
+.swiper-container .slide-login .btn {
+  margin-top: 0.34rem;
+  display: flex;
+  margin-bottom: 2.2rem;
+}
+.swiper-container .slide-login button {
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border: none;
+  color: #615e57;
+  font-size: 0.18rem;
+}
+.swiper-container .slide-login .btn-log {
+  margin-left: 0.94rem;
+}
+.swiper-container .slide-login .btn-sign {
+  margin-left: 1.04rem;
+}
+/* 同意协议 */
+.swiper-container .slide-login #agree {
+  display: none;
+}
+.swiper-container .slide-login label {
+  font-size: 0.12rem;
+  color: #b6ae9b;
+  user-select: none;
+  position: absolute;
+  left: 0.8rem;
+  bottom: 0.8rem;
+}
+.swiper-container .slide-login label span {
+  color: #fff;
+}
+.swiper-container .slide-login input[type="checkbox"] + label span:first-child {
+  display: inline-block;
+  width: 0.12rem;
+  height: 0.12rem;
+  border-radius: 50%;
+  margin-right: 0.12rem;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.swiper-container
+  .slide-login
+  input[type="checkbox"]:checked
+  + label
+  span:first-child {
+  background-image: url("../images/pointer.jpg");
+}
+/* 登录页下面的第三方登录 */
+.swiper-container .slide-login .relative {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0.24rem;
+}
+.swiper-container .slide-login .relative a {
+  text-decoration: none;
+  color: #615e57;
+  font-size: 0.2rem;
+}
+.swiper-container .slide-login .relative .iconfont {
+  font-size: 0.3rem;
+  margin-right: 0.12rem;
+}
+.swiper-container > .swiper-pagination-bullets {
+  height: 0.22rem;
+  bottom: 1.44rem;
+}

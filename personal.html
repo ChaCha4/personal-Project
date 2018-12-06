@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>个人主页</title>
+    <link rel="stylesheet" href="./css/personal.css" />
+    <!-- 字体图标 -->
+    <link rel="stylesheet" href="./css/people.css" />
+    <!-- set-info 里面的后退字体图标 -->
+    <link rel="stylesheet" href="./css/setIfo.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- header 个人主页上面的名片 -->
+      <header class="clearfix">
+        <div class="photo">
+          <div class="photoPic"></div>
+          <span class="name">阴雨天</span>
+          <ul class="list clearfix">
+            <li><span>关注</span><a href="">11</a></li>
+            <li><span>发布</span><a href="">9</a></li>
+            <li><span>访客</span><a href="">49</a></li>
+          </ul>
+        </div>
+        <div class="setting">
+          <a href="javascript:;"><i class="iconfont icon-shezhi"></i></a>
+          <div class="set-info">
+            <div class="top">
+              <a href=""><i class="iconfont icon-zuoyou"></i></a>
+            </div>
+            <ul class="card card1">
+              <li>自动离线缓存<a href="" class="switch">开/关</a></li>
+              <li>
+                Wi-Fi状态下自动缓存高清作品<span class="switch"
+                  ><i class="iconfont icon-you-copy-copy"></i
+                ></span>
+              </li>
+              <li>使用流量状态下提醒<a href="" class="switch">开/关</a></li>
+            </ul>
+            <ul class="card card2">
+              <li><a href="">消息推送</a></li>
+              <li><a href="">意见反馈</a></li>
+              <li><a href="">当前版本</a></li>
+              <li><a href="">关于艺集</a></li>
+            </ul>
+            <a href="" class="exit">退出登录</a>
+            <span class="version">当前版本 1.0.42</span>
+          </div>
+        </div>
+      </header>
+      <!-- 个人主页名片下的内容 -->
+      <div class="main clearfix">
+        <div class="main-top clearfix">
+          <div class="main-title clearfix">
+            <span>艺象云集</span> <a href="" class="all">ALL ></a>
+          </div>
+          <!-- 三张图片对应下面的订阅 -->
+          <div class="box clearfix">
+            <div class="pic box1">
+              <img src="./images/pic1_03.png" alt="" /> <span>订阅/11</span>
+            </div>
+            <div class="pic box2">
+              <img src="./images/pic2_03.png" alt="" /> <span>订阅/9</span>
+            </div>
+            <div class="pic box3">
+              <img src="./images/pic3_03.png" alt="" /> <span>订阅/49</span>
+            </div>
+          </div>
+          <a href="" class="tab tab1 active">原创</a
+          ><a href="" class="tab tab2">缓存</a>
+          <div class="pics clearfix">
+            <img src="./images/btm1_07.png" alt="" /><img
+              src="./images/btm2_07.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <footer>
+        <a href="./mainPage.html" class="img img1"></a>
+        <a href="./recommand.html" class="img img2"></a>
+        <a href="./publish.html" class="img img3"></a>
+        <a href="./personal.html" class="img img4"></a>
+      </footer>
+    </div>
+    <script src="./js/zepto.min.js"></script>
+    <script src="./js/touch.js"></script>
+    <script src="./js/personal.js"></script>
+  </body>
+</html>

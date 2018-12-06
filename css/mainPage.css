@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+/* wrap 样式 */
+.wrap {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 100vh;
+}
+/* 头部样式 */
+header {
+  width: 100%;
+  background-image: url("../images/u151.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 0.62rem;
+  flex-shrink: 0;
+  background-color: #f0f0f0;
+}
+/* 内容盒子 */
+.main {
+  width: 100%;
+  flex-grow: 1;
+  overflow: scroll;
+}
+img {
+  width: 100%;
+}
+/* 第二个轮播图定位位置 */
+.main #swiper2 {
+  position: relative;
+  top: -0.2rem;
+}
+/* 切换的标签样式 */
+.main .tab {
+  display: block;
+  float: left;
+  font-size: 0.14rem;
+  line-height: 0.3rem;
+  background-color: #c9c9c9;
+  text-align: center;
+  width: 1.74rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 0.04rem;
+}
+.main .active {
+  width: 2rem;
+  color: #fff;
+  background: linear-gradient(to right, #cf8c86, #d52315);
+  border-radius: 0.2rem;
+  position: relative;
+  left: -0.12rem;
+}
+/* 第三个轮播图的位置 */
+#swiper3 {
+  width: 100%;
+}
+/* 底部样式 */
+footer {
+  width: 100%;
+  background-color: #000;
+  height: 0.52rem;
+  display: flex;
+  justify-content: center;
+}
+/* 底部四个盒子 */
+footer .img {
+  width: 2.71rem;
+}
+footer .img1 {
+  background-image: url("../images/icon__zhan_u138.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+}
+footer .img2 {
+  background-image: url("../images/icon__tui_u132.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+}
+footer .img3 {
+  background-image: url("../images/icon__fa_u134.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+}
+footer .img4 {
+  background-image: url("../images/icon__ge_u136.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+}

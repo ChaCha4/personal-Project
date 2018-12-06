@@ -1,0 +1,36 @@
+/* footer 部分的样式 */
+footer {
+  width: 100%;
+  background-color: #000;
+  height: 0.52rem;
+  display: flex;
+  justify-content: center;
+}
+/* 底部四个盒子 */
+footer .img {
+  width: 2.71rem;
+}
+footer .img1 {
+  background-image: url("../images/icon__zhan__2_u140.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+}
+footer .img2 {
+  background-image: url("../images/icon__tui_2_u142.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+}
+footer .img3 {
+  background-image: url("../images/icon__fa_u134.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+}
+footer .img4 {
+  background-image: url("../images/icon__ge_u136.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>引导页</title>
+    <link rel="stylesheet" href="./css/bootPage.css" />
+    <!-- swiper 样式 -->
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <!-- 引导页中的第三方登录 微博，微信，qq -->
+    <link rel="stylesheet" href="./css/thirdLog.css" />
+  </head>
+  <body>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- 引导页中前四张图片 -->
+        <div class="swiper-slide"><img src="./images/u1.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./images/u3.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./images/u5.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./images/u8.jpg" alt="" /></div>
+        <!-- 引导页中开启页 -->
+        <div class="swiper-slide slide-start"><span>今日推送 >></span></div>
+        <!-- 引导页中登录页 -->
+        <div class="swiper-slide slide-login">
+          <form action="">
+            <input type="text" placeholder="点击输入手机号/Email登录" />
+            <input type="text" placeholder="输入密码" />
+            <div class="btn">
+              <button class="btn-log">登录</button
+              ><button class="btn-sign">注册</button>
+            </div>
+            <input type="checkbox" id="agree" />
+            <label for="agree"
+              ><span></span>登录或注册即同意艺集<span>用户服务协议</span></label
+            >
+          </form>
+          <a href="./mainPage.html" class="close">×</a>
+          <div class="relative">
+            <a href=""><i class="iconfont icon-weibo"></i>微博</a>
+            <a href=""><i class="iconfont icon-weixin"></i>微信</a>
+            <a href=""><i class="iconfont icon-qqpay"></i>QQ</a>
+          </div>
+        </div>
+      </div>
+      <!-- 分页器 -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <script src="./js/zepto.min.js"></script>
+    <script src="./js/jquery-3.3.1.js"></script>
+    <!-- swiper js -->
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/bootPage.js"></script>
+  </body>
+</html>
